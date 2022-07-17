@@ -1,0 +1,229 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Epilogue, Arial;
+}
+
+body {
+	background-color: hsl(0, 0%, 98%);
+}
+.left-section {
+	display: flex;
+	align-items:top;
+	text-align:center;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 600px;
+	margin-top: 24px;
+	margin-left: 24px;
+}
+
+.right-section {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: end;
+	flex-direction: row;
+	margin-right: 28px;
+	margin-top: -30px;
+}
+
+.attribution {
+	font-size: 11px; text-align: center; 
+	color: hsl(228, 45%, 44%);
+	margin-top: 14px;
+}
+
+.arrow-down {
+	margin-left: -10px;
+	margin-bottom: 0;
+}
+
+.arrow-up {
+	margin-right: -4px;
+	margin-bottom: 4px;
+	opacity: 0;
+}
+
+.description {
+	width: 380px;
+	font-size: 18px;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 70px;
+	width: 480px;
+	margin-bottom: 45px;
+}
+
+.main-section {
+	display: flex;
+	flex-direction: row;
+	margin-left: 180px;
+}
+
+.image-hero {
+	width: 55%;
+	margin-left: 220px;
+	margin-top: 80px;
+}
+
+.title-description {
+	margin-top: 132px;
+}
+
+.more-info {
+	color: white;
+	background-color: black;
+	font-size: 18px;
+	margin-top: 45px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 15px;
+	transition: 0.15s, ease-in-out;
+	border-width: 1px;
+	cursor: pointer;
+}
+
+.more-info:active {
+	color: black;
+	background-color: white;
+	border-width: 1px;
+	border-color: black;
+}
+
+.bottom-section {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 97px;
+
+}
+
+.sponsors {
+	width: 18%;
+}
+
+.sponsors .resize {
+	width: 12%;
+}
+
+.login-btn {
+	margin-right: 38px;
+	cursor: pointer;
+	color: hsl(0, 0%, 41%);
+	transition: 0.15s, ease-in-out;
+	font-size: 14px;
+}
+
+.login-btn:active {
+	color: black;
+}
+
+.register-btn {
+	background-color: white;
+	color: hsl(0, 0%, 41%);
+	cursor: pointer;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-width: 1px;
+	border-radius: 12px;
+	transition: 0.15s, ease-in-out;
+	font-size: 14px;
+}
+
+.register-btn:active {
+	color: black;
+}
+
+.features-dropdown, .company-dropdown,
+.career-btn, .about-btn {
+	color: hsl(0, 0%, 41%);
+	cursor: pointer;
+}
+
+.features-dropdown {
+	position: relative;
+	margin-left: -20px;
+	font-size: 14px;
+	margin
+
+}
+
+.features-dropdown 
+.features-menu {
+	position: absolute;
+}
+
+.company-dropdown {
+	margin-right: 50px;
+	font-size: 14px;
+	margin-left: -50px;
+	position: relative;
+}
+
+.features-menu {
+	background-color: white;
+	box-shadow:  0 6px 6px 8px rgba(72, 74, 78, 0.1);
+	border-radius: 12px;
+	font-size: 12px;
+	margin-top: 16px;
+	padding-top: 14px;
+	padding-right: 25px;
+	margin-left: -65px;
+	padding-left: 25px;
+	display: none;
+}
+
+.company-menu {
+	background-color: white;
+	box-shadow:  0 6px 6px 8px rgba(72, 74, 78, 0.1);
+	border-radius: 12px;
+	font-size: 12px;
+	margin-top: 16px;
+	padding-top: 14px;
+	margin-left: -2px;
+	padding-left: 25px;
+	padding-right: 25px;
+	display: none;
+
+}
+
+.company-details {
+	margin-bottom: 14px;
+	white-space: nowrap;
+}
+
+.company-dropdown .company-menu {
+	position: absolute;
+}
+
+.menu-list {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 12px;
+	align-items: center;
+}
+
+.todo-icon, .calendar-icon, .reminder-icon, .planning-icon {
+	margin-right: 12px;
+}
+
+.career-btn {
+	margin-left: -80px;
+	font-size: 14px;
+	margin-right: 50px;
+}
+
+.about-btn {
+	margin-left: -80px;
+	font-size: 14px;
+	margin-right: 100px
+}
